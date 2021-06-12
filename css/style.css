@@ -1,0 +1,255 @@
+/* font integration */
+@font-face {
+	src: url(../fonts/Poppins/Poppins-Medium.ttf);
+	font-family: Poppins-Medium;
+}
+
+/* Common part starts */
+body {
+	font-family: Poppins-Medium;
+}
+.drag,
+.drop,
+.resize,
+.select,
+.sort, .animation_sec, .effect_sec, .switch, .toggle, .accordion, .a_complete, .date, .dialog_sec, .select_sec, .slider_sec {
+	margin-top: 50px;
+}
+/* header start */
+header {
+	padding: 50px 0;
+	background-color: #293b5f;
+}
+header .head {
+	margin-bottom: 35px;
+	text-align: center;
+}
+header .head h1 {
+	font-size: 38px;
+	font-weight: 500;
+	color: #faa523;
+}
+header li {
+	margin-right: 38px !important;
+}
+header li:last-child {
+	margin-right: 0 !important;
+}
+header a {
+	padding: 6px 15px;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.8s;
+}
+header a:hover {
+	background-color: #fff;
+	color: #293b5f;
+}
+/* header end */
+
+/* Drag start */
+#containment-wrapper {
+	width: 95%;
+	height: 280px;
+	border: 2px solid #ccc;
+	padding: 10px;
+}
+#draggable3 {
+	width: 150px;
+	height: 150px;
+	padding: 0.5em;
+}
+/* Drag end */
+
+/* Drop Start */
+.drop {
+	overflow: hidden;
+}
+#draggable {
+	width: 100px;
+	height: 100px;
+	padding: 0.5em;
+	float: left;
+	margin: 10px 10px 10px 0;
+}
+#droppable {
+	width: 150px;
+	height: 150px;
+	padding: 0.5em;
+	float: left;
+	margin: 10px;
+}
+/* Drop end */
+
+/* Resize start */
+#resizable {
+	width: 150px;
+	height: 150px;
+	padding: 0.5em;
+}
+#resizable h3 {
+	text-align: center;
+	margin: 0;
+}
+/* Resize end */
+
+/* Select start */
+#feedback {
+	font-size: 1.4em;
+}
+#selectable .ui-selecting {
+	background: #feca40;
+}
+#selectable .ui-selected {
+	background: #f39814;
+	color: white;
+}
+#selectable {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 60%;
+}
+#selectable li {
+	margin: 3px;
+	padding: 0.4em;
+	font-size: 1.4em;
+	height: 55px;
+}
+/* Select end */
+
+/* Sort start */
+#sortable {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 60%;
+}
+#sortable li {
+	margin: 0 3px 3px 3px;
+	padding: 0.4em;
+	padding-left: 1.5em;
+	font-size: 1.4em;
+	height: 55px;
+}
+#sortable li span {
+	position: absolute;
+	margin-left: -1.3em;
+}
+/* Sort end */
+
+/*!--------------------------------------------                   Effect -------------------------------------------*/
+
+/* Color animation start */
+.toggler {
+	width: 500px;
+	height: 260px;
+	position: relative;
+}
+.animation_sec #button {
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+.animation_sec #effect {
+	width: 240px;
+	padding: 0.4em;
+	position: relative;
+	background: #fff;
+}
+.animation_sec #effect h3 {
+	margin: 0;
+	padding: 0.4em;
+	text-align: center;
+}
+/* Color animation end */
+
+/* Effect start */
+.ui-effects-transfer {
+	border: 2px dotted gray;
+}
+/* Effect end */
+
+/* Switch start */
+.switch .toggler {
+	height: 200px;
+}
+.newClass {
+	width: 240px;
+	padding: 1em;
+	letter-spacing: 0;
+	margin: 0;
+}
+.anotherNewClass {
+	text-indent: 40px;
+	letter-spacing: 0.2em;
+	width: 410px;
+	height: 100px;
+	padding: 30px;
+	margin: 10px;
+	font-size: 1.1em;
+}
+/* Switch end */
+
+/* Toggle start */
+.toggle .toggler {
+	width: 500px;
+	height: 210px;
+	position: relative;
+}
+.toggle #button {
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+.toggle #tEffect {
+	position: relative;
+	width: 240px;
+	padding: 1em;
+	letter-spacing: 0;
+	font-size: 1.2em;
+	border: 1px solid #000;
+	background: #eee;
+	color: #333;
+}
+.toggle .tNewClass {
+	text-indent: 40px;
+	letter-spacing: 0.4em;
+	width: 410px;
+	height: 200px;
+	padding: 30px;
+	margin: 10px;
+	font-size: 1.6em;
+}
+/* Toggle end */
+
+/*!--------------------------------------------                   Widgets -------------------------------------------*/
+
+/* Accordion start */
+
+/* Accordion end */
+
+/* Autocomplete start */
+
+/* Autocomplete end */
+
+/* Select start */
+fieldset {
+	border: 0;
+}
+label {
+	display: block;
+	margin: 30px 0 0 0;
+}
+.overflow {
+	height: 200px;
+}
+/* Select end */
+
+/* Slider start */
+.slider_sec .ui-state-default{
+	border: 1px solid #293b5f;
+	background: #293b5f;
+}
+/* Slider end */
